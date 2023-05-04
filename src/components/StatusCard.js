@@ -1,5 +1,5 @@
 import React from "react";
-import './StatusCard.css'
+import "./StatusCard.css";
 const StatusCard = (props) => {
   return (
     <div
@@ -9,7 +9,14 @@ const StatusCard = (props) => {
       }}
     >
       <h1>{props.items}</h1>
-      <p>{props.name}</p>
+      <p
+        style={{
+          fontSize: "16px",
+          fontWeight: "700",
+        }}
+      >
+        {props.name}
+      </p>
     </div>
   );
 };
