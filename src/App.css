@@ -22,6 +22,7 @@
 }
 
 .project-drawer{
+  position: static;
   width: 260px;
   background-color: rgb(107, 172, 172);
   padding: 16px;
