@@ -1,0 +1,33 @@
+.SubmitButton{
+    border: none;
+    padding: 16px 64px;
+    color: rgb(23, 15, 250);
+    margin: auto;
+    align-items: center;
+    background-color: black;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.custom-input {
+    margin: 16px 16px 16px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  .custom-input:focus {
+    outline: none;
+    border-color: #0088ff;
+    box-shadow: 0 0 5px rgba(0, 136, 255, 0.5);
+  }
+  
+  .custom-input::placeholder {
+    color: #999;
+  }
+  
